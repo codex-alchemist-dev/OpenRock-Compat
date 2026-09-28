@@ -1,0 +1,8 @@
+{
+  "name": "@openrock/compat",
+  "version": "1.0.0",
+  "description": "Version-selection for a library whose exported API is keyed by version - a provider exposing {"1.0.0": apiV1, "2.0.0": apiV2} resolves per-consumer against that consumer's own declared apiVersion range.",
+  "license": "MPL-2.0",
+  "private": true,
+  "main": "src/register.js"
+}
